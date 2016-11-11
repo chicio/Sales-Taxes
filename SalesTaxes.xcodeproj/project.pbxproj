@@ -167,7 +167,6 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = Y682K92RZU;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 5FE1F69E1DD65F25002099A2;
 					};
 				};
 			};
@@ -374,26 +373,24 @@
 		5FE1F6C51DD65F26002099A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = Y682K92RZU;
 				INFOPLIST_FILE = SalesTaxesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = it.chicio.SalesTaxes.SalesTaxesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SalesTaxes.app/SalesTaxes";
 			};
 			name = Debug;
 		};
 		5FE1F6C61DD65F26002099A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = Y682K92RZU;
 				INFOPLIST_FILE = SalesTaxesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = it.chicio.SalesTaxes.SalesTaxesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SalesTaxes.app/SalesTaxes";
 			};
 			name = Release;
 		};
@@ -416,6 +413,7 @@
 				5FE1F6C31DD65F26002099A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FE1F6C41DD65F26002099A2 /* Build configuration list for PBXNativeTarget "SalesTaxesTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +422,7 @@
 				5FE1F6C61DD65F26002099A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
