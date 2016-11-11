@@ -1,0 +1,6 @@
+language: objective-c
+osx_image: xcode8
+script:
+ - xcodebuild -project SalesTaxes.xcodeproj -scheme SalesTaxesTests test
+ - xcodebuild -project SalesTaxes.xcodeproj -scheme SalesTaxes-Debug   clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+ - xcodebuild -project SalesTaxes.xcodeproj -scheme SalesTaxes-Release clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
