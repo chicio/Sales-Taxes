@@ -11,6 +11,10 @@
 #import "Product.h"
 #import "TaxCalculator.h"
 
+/*!
+ A class used to describe an item of the shopping cart.
+ It is composed of a product and a quantity value. 
+ */
 @interface ShoppingItem : NSObject
 
 /// Product to be purchased.

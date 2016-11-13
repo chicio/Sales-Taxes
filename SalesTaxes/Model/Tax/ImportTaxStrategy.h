@@ -8,6 +8,9 @@
 
 #import "TaxCalculationStrategy.h"
 
+/*!
+ A class that implements the import tax algorithm.
+ */
 @interface ImportTaxStrategy : NSObject <TaxCalculationStrategy>
 
 /*!

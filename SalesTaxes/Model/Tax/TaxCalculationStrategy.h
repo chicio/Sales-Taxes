@@ -10,6 +10,9 @@
 
 #import "Product.h"
 
+/*!
+ A protocol that all tax algorithm strategy classes must adopt.
+ */
 @protocol TaxCalculationStrategy <NSObject>
 
 @required

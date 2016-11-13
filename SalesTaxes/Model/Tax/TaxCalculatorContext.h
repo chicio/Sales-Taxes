@@ -9,6 +9,9 @@
 #import "TaxCalculationStrategy.h"
 #import "Product.h"
 
+/*!
+ A context class for tax calculator strategy.
+ */
 @interface TaxCalculatorContext : NSObject
 
 /// Current tax calculator strategy.

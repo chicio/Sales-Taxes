@@ -10,6 +10,10 @@
 
 #import "ShoppingCart.h"
 
+/*!
+ A class used to describe a receipt.
+ A receipt is generated from the shopping cart items.
+ */
 @interface Receipt : NSObject
 
 /*!

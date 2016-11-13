@@ -8,6 +8,9 @@
 
 #import "TaxCalculationStrategy.h"
 
+/*!
+ A class that implements the basic tax algorithm.
+ */
 @interface BasicTaxStrategy : NSObject <TaxCalculationStrategy>
 
 /*!

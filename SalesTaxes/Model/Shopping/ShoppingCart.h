@@ -10,6 +10,10 @@
 
 #import "ShoppingItem.h"
 
+/*!
+ A class used to describe a shopping cart.
+ It is composed of a list of shopping item (ShoppingItem class).
+ */
 @interface ShoppingCart : NSObject
 
 /// Array of the key of shopping item ordered based on insertion (so we keep the same order in output).

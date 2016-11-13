@@ -11,6 +11,11 @@
 #import "ProductType.h"
 #import "ProductOrigin.h"
 
+/*!
+ A class used to describe a product.
+ A product is composed of a name, a price, a type
+ and an origin.
+ */
 @interface Product : NSObject
 
 /// Product name. Unique for each product.
