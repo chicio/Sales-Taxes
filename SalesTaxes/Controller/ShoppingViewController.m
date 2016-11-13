@@ -35,8 +35,8 @@
             [[Product alloc] initWithName:@"music" andPrice:14.99f andType:Other andOrigin:Local],
             [[Product alloc] initWithName:@"chocolate" andPrice:0.85f andType:Food andOrigin:Local],
             [[Product alloc] initWithName:@"imported box of chocolate"  andPrice:10.00f andType:Food andOrigin:Imported],
-            [[Product alloc] initWithName:@"imported bottle of perfume" andPrice:47.50f andType:Other andOrigin:Imported],
-            [[Product alloc] initWithName:@"imported bottle of perfume" andPrice:27.99f andType:Other andOrigin:Imported],
+            [[Product alloc] initWithName:@"imported bottle of perfume chanel" andPrice:47.50f andType:Other andOrigin:Imported],
+            [[Product alloc] initWithName:@"imported bottle of perfume armani" andPrice:27.99f andType:Other andOrigin:Imported],
             [[Product alloc] initWithName:@"bottle of perfume" andPrice:18.99f andType:Other andOrigin:Local],
             [[Product alloc] initWithName:@"packet of headachepills" andPrice:9.75f  andType:Medical andOrigin:Local],
             [[Product alloc] initWithName:@"box of imported chocolates" andPrice:11.25f andType:Food andOrigin:Imported]
@@ -80,10 +80,41 @@
         cell.accessoryType = UITableViewCellAccessoryNone;
     } else {
         
-        //Add.
-        TaxCalculator *taxCalculator = [[TaxCalculator alloc] init];
-        ShoppingItem *item = [[ShoppingItem alloc] initWithProduct:product andQuantity:1 andTaxCalculator:taxCalculator];
-        [self.shoppingCart add:item];
+        UIAlertController * quantityAlertController = [UIAlertController alertControllerWithTitle: @"Quantity"
+                                                                                          message: @"Insert quantity"
+                                                                                   preferredStyle:UIAlertControllerStyleAlert];
+        
+        [quantityAlertController addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+            
+            textField.placeholder = @"quantity";
+            textField.text = @"1";
+        }];
+        
+        [quantityAlertController addAction:[UIAlertAction actionWithTitle:@"OK"
+                                                                    style:UIAlertActionStyleDefault
+                                                                  handler:^(UIAlertAction *action) {
+                                                                      
+            NSArray * textfields = quantityAlertController.textFields;
+            UITextField *quantityField = textfields[0];
+            int quantity = [quantityField.text intValue];
+                                                                      
+            //If quantity is not valid insert default = 1.
+            if (quantity == 0) {
+                
+                quantity = 1;
+            }
+                                                                      
+            //Add.
+            TaxCalculator *taxCalculator = [[TaxCalculator alloc] init];
+            ShoppingItem *item = [[ShoppingItem alloc] initWithProduct:product
+                                                           andQuantity:quantity
+                                                      andTaxCalculator:taxCalculator];
+                                                      
+            [self.shoppingCart add:item];
+                                                              
+        }]];
+        
+        [self presentViewController:quantityAlertController animated:YES completion:nil];
         
         cell.accessoryType = UITableViewCellAccessoryCheckmark;
     }
