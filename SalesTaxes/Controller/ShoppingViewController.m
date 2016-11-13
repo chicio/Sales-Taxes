@@ -35,10 +35,10 @@
             [[Product alloc] initWithName:@"music" andPrice:14.99f andType:Other andOrigin:Local],
             [[Product alloc] initWithName:@"chocolate" andPrice:0.85f andType:Food andOrigin:Local],
             [[Product alloc] initWithName:@"imported box of chocolate"  andPrice:10.00f andType:Food andOrigin:Imported],
-            [[Product alloc] initWithName:@"imported bottle of perfume chanel" andPrice:47.50f andType:Other andOrigin:Imported],
-            [[Product alloc] initWithName:@"imported bottle of perfume armani" andPrice:27.99f andType:Other andOrigin:Imported],
+            [[Product alloc] initWithName:@"imported perfume chanel" andPrice:47.50f andType:Other andOrigin:Imported],
+            [[Product alloc] initWithName:@"imported perfume armani" andPrice:27.99f andType:Other andOrigin:Imported],
             [[Product alloc] initWithName:@"bottle of perfume" andPrice:18.99f andType:Other andOrigin:Local],
-            [[Product alloc] initWithName:@"packet of headachepills" andPrice:9.75f  andType:Medical andOrigin:Local],
+            [[Product alloc] initWithName:@"packet of headache pills" andPrice:9.75f  andType:Medical andOrigin:Local],
             [[Product alloc] initWithName:@"box of imported chocolates" andPrice:11.25f andType:Food andOrigin:Imported]
     ];
     
@@ -57,7 +57,7 @@
     
     Product *product = [self.productList objectAtIndex:indexPath.row];
     
-    //Setup cell.
+    //Setup cell with product data.
     cell.productName.text = product.productName;
     cell.productType.text = ProducTypeString(product.productType);
     cell.productOrigin.text = ProductOriginString(product.productOrigin);
@@ -65,6 +65,8 @@
     
     return cell;
 }
+
+#pragma mark UITableView delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
@@ -74,19 +76,21 @@
 
     if (cell.accessoryType == UITableViewCellAccessoryCheckmark) {
 
-        //Delete.
+        //Remove product from shopping cart.
         [self.shoppingCart remove:[product productName]];
 
         cell.accessoryType = UITableViewCellAccessoryNone;
     } else {
         
-        UIAlertController * quantityAlertController = [UIAlertController alertControllerWithTitle: @"Quantity"
-                                                                                          message: @"Insert quantity"
+        //Add product to shopping cart.
+        //Use UIAlertController to get the quantity for the product selected.
+        UIAlertController * quantityAlertController = [UIAlertController alertControllerWithTitle:@"Quantity"
+                                                                                          message:@"Insert quantity"
                                                                                    preferredStyle:UIAlertControllerStyleAlert];
         
         [quantityAlertController addTextFieldWithConfigurationHandler:^(UITextField *textField) {
             
-            textField.placeholder = @"quantity";
+            textField.placeholder = @"Quantity";
             textField.text = @"1";
         }];
         
@@ -104,7 +108,7 @@
                 quantity = 1;
             }
                                                                       
-            //Add.
+            //Add product with quantity as shopping item to the shopping cart.
             TaxCalculator *taxCalculator = [[TaxCalculator alloc] init];
             ShoppingItem *item = [[ShoppingItem alloc] initWithProduct:product
                                                            andQuantity:quantity
@@ -129,7 +133,6 @@
     
     if ([[segue identifier] isEqualToString:@"ReceiptSegue"]) {
         
-        //Get reference to the destination view controller
         ReceiptViewController *receiptController = (ReceiptViewController *)segue.destinationViewController;
         receiptController.receipt = [[Receipt alloc] initWithShoppingCart:self.shoppingCart];
     }

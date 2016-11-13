@@ -10,6 +10,4 @@
 
 @interface ShoppingViewController : UITableViewController
 
-
 @end
-

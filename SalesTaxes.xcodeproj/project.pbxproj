@@ -13,6 +13,7 @@
 		5F2D32FD1DD80A5A00FC7D71 /* ReceiptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2D32FC1DD80A5A00FC7D71 /* ReceiptViewController.m */; };
 		5F2D33011DD80CF100FC7D71 /* ShoppingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2D33001DD80CF100FC7D71 /* ShoppingCell.m */; };
 		5F8606C51DD8AC9B00126D68 /* ReceiptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8606C41DD8AC9B00126D68 /* ReceiptTests.m */; };
+		5F8606C71DD9150000126D68 /* ProductTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8606C61DD9150000126D68 /* ProductTests.m */; };
 		5F9A1F9E1DD7656800C5A8CD /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9A1F931DD7656800C5A8CD /* libOCMock.a */; };
 		5F9A1FA01DD7658D00C5A8CD /* ShoppingItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A1F9F1DD7658D00C5A8CD /* ShoppingItemTests.m */; };
 		5F9A1FA21DD765B200C5A8CD /* TaxCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A1FA11DD765B200C5A8CD /* TaxCalculatorTests.m */; };
@@ -62,6 +63,7 @@
 		5F2D32FF1DD80CF100FC7D71 /* ShoppingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCell.h; sourceTree = "<group>"; };
 		5F2D33001DD80CF100FC7D71 /* ShoppingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCell.m; sourceTree = "<group>"; };
 		5F8606C41DD8AC9B00126D68 /* ReceiptTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiptTests.m; sourceTree = "<group>"; };
+		5F8606C61DD9150000126D68 /* ProductTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductTests.m; sourceTree = "<group>"; };
 		5F9A1F931DD7656800C5A8CD /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
 		5F9A1F941DD7656800C5A8CD /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
 		5F9A1F951DD7656800C5A8CD /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 				5F9A1F921DD7656800C5A8CD /* OCMock */,
 				5F2D32F51DD7FEB900FC7D71 /* BasicStrategyTests.m */,
 				5F2D32F71DD7FED800FC7D71 /* ImportTaxStrategyTests.m */,
+				5F8606C61DD9150000126D68 /* ProductTests.m */,
 				5F8606C41DD8AC9B00126D68 /* ReceiptTests.m */,
 				5FE1F6BC1DD65F26002099A2 /* SalesTaxesTests.m */,
 				5F9A1F9F1DD7658D00C5A8CD /* ShoppingItemTests.m */,
@@ -411,6 +414,7 @@
 				5F9A1FA01DD7658D00C5A8CD /* ShoppingItemTests.m in Sources */,
 				5FE1F6EE1DD69212002099A2 /* BasicTaxStrategy.m in Sources */,
 				5F9A1FA41DD765D500C5A8CD /* ShoppingCartTests.m in Sources */,
+				5F8606C71DD9150000126D68 /* ProductTests.m in Sources */,
 				5F2D32F61DD7FEB900FC7D71 /* BasicStrategyTests.m in Sources */,
 				5FE1F6F71DD69519002099A2 /* ShoppingItem.m in Sources */,
 				5FE1F6D31DD683B7002099A2 /* ShoppingViewController.m in Sources */,

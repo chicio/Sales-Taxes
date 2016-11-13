@@ -35,11 +35,6 @@
     return self;
 }
 
-- (NSString *)getName {
-    
-    return self.product.productName;
-}
-
 - (float)getCost {
     
     float shoppingItemPrice = self.quantity * self.product.productPrice + [self getTaxes];

@@ -25,7 +25,7 @@
 - (void)add:(ShoppingItem *)shoppingItem;
 
 /*!
- Remove shopping item using given name.
+ Remove shopping item using given name from the shopping cart.
  
  @param shoppingItemName the shopping item name of the shopping item to be removed.
  */

@@ -57,8 +57,15 @@
 
 - (void)testOutputTwo {
  
-    Product *product1 = [[Product alloc] initWithName:@"imported box of chocolate" andPrice:10.00f andType:Food andOrigin:Imported];
-    Product *product2 = [[Product alloc] initWithName:@"imported bottle of perfume" andPrice:47.50f andType:Other andOrigin:Imported];
+    Product *product1 = [[Product alloc] initWithName:@"imported box of chocolate"
+                                             andPrice:10.00f
+                                              andType:Food
+                                            andOrigin:Imported];
+    
+    Product *product2 = [[Product alloc] initWithName:@"imported bottle of perfume"
+                                             andPrice:47.50f
+                                              andType:Other
+                                            andOrigin:Imported];
     
     TaxCalculator *taxCalculator = [[TaxCalculator alloc] init];
     
@@ -80,10 +87,25 @@
 
 - (void)testOutputThree {
     
-    Product *product1 = [[Product alloc] initWithName:@"imported bottle of perfume" andPrice:27.99f andType:Other andOrigin:Imported];
-    Product *product2 = [[Product alloc] initWithName:@"bottle of perfume" andPrice:18.99f andType:Other andOrigin:Local];
-    Product *product3 = [[Product alloc] initWithName:@"packet of headachepills" andPrice:9.75f andType:Medical andOrigin:Local];
-    Product *product4 = [[Product alloc] initWithName:@"box of imported chocolates" andPrice:11.25f andType:Food andOrigin:Imported];
+    Product *product1 = [[Product alloc] initWithName:@"imported bottle of perfume"
+                                             andPrice:27.99f
+                                              andType:Other
+                                            andOrigin:Imported];
+    
+    Product *product2 = [[Product alloc] initWithName:@"bottle of perfume"
+                                             andPrice:18.99f
+                                              andType:Other
+                                            andOrigin:Local];
+    
+    Product *product3 = [[Product alloc] initWithName:@"packet of headachepills"
+                                             andPrice:9.75f
+                                              andType:Medical
+                                            andOrigin:Local];
+    
+    Product *product4 = [[Product alloc] initWithName:@"box of imported chocolates"
+                                             andPrice:11.25f
+                                              andType:Food
+                                            andOrigin:Imported];
     
     TaxCalculator *taxCalculator = [[TaxCalculator alloc] init];
 

@@ -48,7 +48,7 @@
                                                            andQuantity:1
                                                       andTaxCalculator:mockTaxCalculator];
     
-    XCTAssertEqual([shoppingItem getTaxes], 0.5f, @"Failed taxes calculation - single unit shopping item");
+    XCTAssertEqual([shoppingItem getTaxes], 0.5f, @"Failed taxes calculation single unit - shopping item");
 }
 
 /*!
@@ -70,7 +70,7 @@
                                                            andQuantity:1
                                                       andTaxCalculator:mockTaxCalculator];
     
-    XCTAssertEqual([shoppingItem getCost], 10.50f, @"Failed cost calculation - single unit shopping item");
+    XCTAssertEqual([shoppingItem getCost], 10.50f, @"Failed cost calculation single unit - shopping item");
 }
 
 /*!
@@ -92,7 +92,7 @@
                                                            andQuantity:4
                                                       andTaxCalculator:mockTaxCalculator];
     
-    XCTAssertEqual([shoppingItem getTaxes], 2.0f, @"Failed taxes calculation - multiple units shopping item");
+    XCTAssertEqual([shoppingItem getTaxes], 2.0f, @"Failed taxes calculation multiple units - shopping item");
 }
 
 /*!
@@ -114,7 +114,7 @@
                                                            andQuantity:4
                                                       andTaxCalculator:mockTaxCalculator];
     
-    XCTAssertEqual([shoppingItem getCost], 42.f, @"Failed cost calculation - multiple units shopping item");
+    XCTAssertEqual([shoppingItem getCost], 42.f, @"Failed cost calculation multiple units - shopping item");
 }
 
 @end
