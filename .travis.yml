@@ -1,7 +1,7 @@
 language: objective-c
 osx_image: xcode8
 script:
- - xcodebuild -project SalesTaxes.xcodeproj -scheme SalesTaxesTests test -sdk iphonesimulator GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES -destination 'platform=iOS Simulator,name=iPhone 7,OS=latest'
+ - xcodebuild -project SalesTaxes.xcodeproj -scheme SalesTaxesTests    test -sdk iphonesimulator GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES -destination 'platform=iOS Simulator,name=iPhone 7,OS=latest'
  - xcodebuild -project SalesTaxes.xcodeproj -scheme SalesTaxes-Debug   clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
  - xcodebuild -project SalesTaxes.xcodeproj -scheme SalesTaxes-Release clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
 after_success:
