@@ -11,17 +11,16 @@ An iOS implementation of the Sales Taxes technical interview problem.
 This is the text of the problem:
 >Basic sales tax is applicable at a rate of 10% on all goods, except books, food, and medical products that are exempt. Import duty is an additional sales tax applicable on all imported goods at a rate of 5%, with no exemptions.
 > &nbsp;
-> When I purchase items I receive a receipt which lists the name of all the items and their price (including tax), finishing with the total cost of the items, and the total amounts of sales taxes paid. The rounding rules for sales tax are that for a tax rate of n%, a shelf price of p contains (np/100 rounded up to the nearest 0.05) amount of sales tax.
->
+> When I purchase items I receive a receipt which lists the name of all the items and their price (including tax), finishing with the total cost of the items, and the total amounts of sales taxes paid. The rounding rules for sales tax are that for a tax rate of n%, a shelf price of p contains (np/100 rounded up to the nearest 0.05) amount of sales tax. <br/>
 >Write an application that prints out the receipt details for these shopping baskets...
 >
 >INPUT:
 >
->Input 1:
-> 1 book at 12.49
-> 1 music CD at 14.99
-> 1 chocolate bar at 0.85
-> 
+><ul>Input 1:
+> <li>1 book at 12.49 </li>
+> <li>1 music CD at 14.99</li>
+> <li>1 chocolate bar at 0.85</li>
+> </ul>
 > &nbsp;
 > 
 >Input 2:
