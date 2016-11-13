@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ShoppingCartViewController.h
 //  SalesTaxes
 //
 //  Created by Fabrizio Duroni on 11/11/2016.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ShoppingViewController : UITableViewController
 
 
 @end

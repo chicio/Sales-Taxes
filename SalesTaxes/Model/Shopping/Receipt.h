@@ -13,10 +13,17 @@
 @interface Receipt : NSObject
 
 /*!
- Generate receipt using the shopping cart received as parameter.
+ Constructor.
  
- @param shoppingCart the list item to be displayed.
+ @param aShoppingCart shopping cart on which the receipt will be calculated.
+ 
+ @returns Receipt instance.
  */
-- (NSString *)generateReceipt:(ShoppingCart *)shoppingCart;
+- (instancetype)initWithShoppingCart:(ShoppingCart *)aShoppingCart;
+
+/*!
+ Generate receipt using the shopping cart received as parameter.
+ */
+- (NSString *)generateReceipt;
 
 @end

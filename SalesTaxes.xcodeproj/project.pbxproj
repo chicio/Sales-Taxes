@@ -10,6 +10,8 @@
 		5F2D32F61DD7FEB900FC7D71 /* BasicStrategyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2D32F51DD7FEB900FC7D71 /* BasicStrategyTests.m */; };
 		5F2D32F81DD7FED800FC7D71 /* ImportTaxStrategyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2D32F71DD7FED800FC7D71 /* ImportTaxStrategyTests.m */; };
 		5F2D32FA1DD7FEED00FC7D71 /* TaxCalculatorContextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2D32F91DD7FEED00FC7D71 /* TaxCalculatorContextTests.m */; };
+		5F2D32FD1DD80A5A00FC7D71 /* ReceiptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2D32FC1DD80A5A00FC7D71 /* ReceiptViewController.m */; };
+		5F2D33011DD80CF100FC7D71 /* ShoppingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2D33001DD80CF100FC7D71 /* ShoppingCell.m */; };
 		5F9A1F9E1DD7656800C5A8CD /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9A1F931DD7656800C5A8CD /* libOCMock.a */; };
 		5F9A1FA01DD7658D00C5A8CD /* ShoppingItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A1F9F1DD7658D00C5A8CD /* ShoppingItemTests.m */; };
 		5F9A1FA21DD765B200C5A8CD /* TaxCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A1FA11DD765B200C5A8CD /* TaxCalculatorTests.m */; };
@@ -22,8 +24,8 @@
 		5FE1F6AF1DD65F26002099A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE1F6AE1DD65F26002099A2 /* Assets.xcassets */; };
 		5FE1F6B21DD65F26002099A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE1F6B01DD65F26002099A2 /* LaunchScreen.storyboard */; };
 		5FE1F6BD1DD65F26002099A2 /* SalesTaxesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE1F6BC1DD65F26002099A2 /* SalesTaxesTests.m */; };
-		5FE1F6D21DD683B7002099A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE1F6D11DD683B7002099A2 /* ViewController.m */; };
-		5FE1F6D31DD683B7002099A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE1F6D11DD683B7002099A2 /* ViewController.m */; };
+		5FE1F6D21DD683B7002099A2 /* ShoppingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE1F6D11DD683B7002099A2 /* ShoppingViewController.m */; };
+		5FE1F6D31DD683B7002099A2 /* ShoppingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE1F6D11DD683B7002099A2 /* ShoppingViewController.m */; };
 		5FE1F6E51DD69150002099A2 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE1F6E31DD69150002099A2 /* Product.m */; };
 		5FE1F6E61DD69150002099A2 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE1F6E31DD69150002099A2 /* Product.m */; };
 		5FE1F6E91DD6917B002099A2 /* ImportTaxStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE1F6E81DD6917B002099A2 /* ImportTaxStrategy.m */; };
@@ -54,6 +56,10 @@
 		5F2D32F51DD7FEB900FC7D71 /* BasicStrategyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicStrategyTests.m; sourceTree = "<group>"; };
 		5F2D32F71DD7FED800FC7D71 /* ImportTaxStrategyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImportTaxStrategyTests.m; sourceTree = "<group>"; };
 		5F2D32F91DD7FEED00FC7D71 /* TaxCalculatorContextTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxCalculatorContextTests.m; sourceTree = "<group>"; };
+		5F2D32FB1DD80A5A00FC7D71 /* ReceiptViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiptViewController.h; sourceTree = "<group>"; };
+		5F2D32FC1DD80A5A00FC7D71 /* ReceiptViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiptViewController.m; sourceTree = "<group>"; };
+		5F2D32FF1DD80CF100FC7D71 /* ShoppingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCell.h; sourceTree = "<group>"; };
+		5F2D33001DD80CF100FC7D71 /* ShoppingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCell.m; sourceTree = "<group>"; };
 		5F9A1F931DD7656800C5A8CD /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
 		5F9A1F941DD7656800C5A8CD /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
 		5F9A1F951DD7656800C5A8CD /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
@@ -81,8 +87,8 @@
 		5FE1F6B81DD65F26002099A2 /* SalesTaxesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalesTaxesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE1F6BC1DD65F26002099A2 /* SalesTaxesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SalesTaxesTests.m; sourceTree = "<group>"; };
 		5FE1F6BE1DD65F26002099A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5FE1F6D01DD683B7002099A2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5FE1F6D11DD683B7002099A2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5FE1F6D01DD683B7002099A2 /* ShoppingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingViewController.h; sourceTree = "<group>"; };
+		5FE1F6D11DD683B7002099A2 /* ShoppingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingViewController.m; sourceTree = "<group>"; };
 		5FE1F6DF1DD69048002099A2 /* TaxCalculationStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxCalculationStrategy.h; sourceTree = "<group>"; };
 		5FE1F6E11DD69150002099A2 /* ProductOrigin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductOrigin.h; sourceTree = "<group>"; };
 		5FE1F6E21DD69150002099A2 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
@@ -121,6 +127,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F2D32FE1DD80CC400FC7D71 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F2D32FF1DD80CF100FC7D71 /* ShoppingCell.h */,
+				5F2D33001DD80CF100FC7D71 /* ShoppingCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		5F9A1F921DD7656800C5A8CD /* OCMock */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +175,7 @@
 		5FE1F6A11DD65F25002099A2 /* SalesTaxes */ = {
 			isa = PBXGroup;
 			children = (
+				5F2D32FE1DD80CC400FC7D71 /* View */,
 				5FE1F6CF1DD683B7002099A2 /* Controller */,
 				5FE1F6CB1DD683A7002099A2 /* Model */,
 				5FE1F6A51DD65F26002099A2 /* AppDelegate.h */,
@@ -210,8 +226,10 @@
 		5FE1F6CF1DD683B7002099A2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				5FE1F6D01DD683B7002099A2 /* ViewController.h */,
-				5FE1F6D11DD683B7002099A2 /* ViewController.m */,
+				5FE1F6D01DD683B7002099A2 /* ShoppingViewController.h */,
+				5FE1F6D11DD683B7002099A2 /* ShoppingViewController.m */,
+				5F2D32FB1DD80A5A00FC7D71 /* ReceiptViewController.h */,
+				5F2D32FC1DD80A5A00FC7D71 /* ReceiptViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -360,8 +378,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F9A1FA71DD7684600C5A8CD /* TaxCalculator.m in Sources */,
+				5F2D32FD1DD80A5A00FC7D71 /* ReceiptViewController.m in Sources */,
 				5FE1F6F61DD69519002099A2 /* ShoppingItem.m in Sources */,
-				5FE1F6D21DD683B7002099A2 /* ViewController.m in Sources */,
+				5F2D33011DD80CF100FC7D71 /* ShoppingCell.m in Sources */,
+				5FE1F6D21DD683B7002099A2 /* ShoppingViewController.m in Sources */,
 				5FE1F6F11DD69312002099A2 /* TaxCalculatorContext.m in Sources */,
 				5FE1F6ED1DD69212002099A2 /* BasicTaxStrategy.m in Sources */,
 				5FE1F6A71DD65F26002099A2 /* AppDelegate.m in Sources */,
@@ -390,7 +410,7 @@
 				5F9A1FA41DD765D500C5A8CD /* ShoppingCartTests.m in Sources */,
 				5F2D32F61DD7FEB900FC7D71 /* BasicStrategyTests.m in Sources */,
 				5FE1F6F71DD69519002099A2 /* ShoppingItem.m in Sources */,
-				5FE1F6D31DD683B7002099A2 /* ViewController.m in Sources */,
+				5FE1F6D31DD683B7002099A2 /* ShoppingViewController.m in Sources */,
 				5FE1F6BD1DD65F26002099A2 /* SalesTaxesTests.m in Sources */,
 				5FE1F6FF1DD6B2B1002099A2 /* Receipt.m in Sources */,
 			);

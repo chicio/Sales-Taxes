@@ -17,3 +17,6 @@ typedef enum producttype {
 } ProductType;
 
 #endif /* Type__h */
+
+#define ProducTypeString(x) [[[NSArray alloc] initWithObjects: @"Book", @"Food", @"Medical", @"Other", nil] \
+                            objectAtIndex:x];

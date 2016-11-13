@@ -8,15 +8,34 @@
 
 #import "Receipt.h"
 
+@interface Receipt ()
+
+/// Current shopping cart.
+@property (nonatomic, strong) ShoppingCart *shoppingCart;
+
+@end
+
 @implementation Receipt
 
-- (NSString *)generateReceipt:(ShoppingCart *)shoppingCart {
+- (instancetype)initWithShoppingCart:(ShoppingCart *)aShoppingCart {
+    
+    self = [super init];
+    
+    if (self) {
+        
+        self.shoppingCart = aShoppingCart;
+    }
+    
+    return self;
+}
+
+- (NSString *)generateReceipt{
     
     NSMutableString *receipt = [[NSMutableString alloc] initWithString:@"\n"];
         
-    for (NSString* shoppingItemName in shoppingCart.shoppingItemKeyOrder) {
+    for (NSString* shoppingItemName in self.shoppingCart.shoppingItemKeyOrder) {
         
-        ShoppingItem *shoppingItem = [shoppingCart.shoppingItemList objectForKey:shoppingItemName];
+        ShoppingItem *shoppingItem = [self.shoppingCart.shoppingItemList objectForKey:shoppingItemName];
         
         NSString *shoppingItemRow = [NSString stringWithFormat:@"%d %@: %.2f \n",
                                      shoppingItem.quantity,
@@ -26,9 +45,10 @@
         [receipt appendString:shoppingItemRow];
     }
     
-    NSString *totalTaxesRow = [NSString stringWithFormat:@"Sales Taxes: %.2f \n", [shoppingCart getTotalTaxes]];
-    NSString *totalRow = [NSString stringWithFormat:@"Total: %.2f \n", [shoppingCart getTotal]];
+    NSString *totalTaxesRow = [NSString stringWithFormat:@"Sales Taxes: %.2f \n", [self.shoppingCart getTotalTaxes]];
+    NSString *totalRow = [NSString stringWithFormat:@"Total: %.2f \n", [self.shoppingCart getTotal]];
     
+    [receipt appendString:@"\n"];
     [receipt appendString:totalTaxesRow];
     [receipt appendString:totalRow];
     

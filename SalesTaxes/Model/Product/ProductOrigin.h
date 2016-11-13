@@ -15,3 +15,5 @@ typedef enum productorigin {
 } ProductOrigin;
 
 #endif /* Origin_h */
+
+#define ProductOriginString(x) [[[NSArray alloc] initWithObjects: @"Local", @"Imported", nil] objectAtIndex:x];
