@@ -7,13 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F2D32F61DD7FEB900FC7D71 /* BasicStrategyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2D32F51DD7FEB900FC7D71 /* BasicStrategyTests.m */; };
+		5F2D32F81DD7FED800FC7D71 /* ImportTaxStrategyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2D32F71DD7FED800FC7D71 /* ImportTaxStrategyTests.m */; };
+		5F2D32FA1DD7FEED00FC7D71 /* TaxCalculatorContextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2D32F91DD7FEED00FC7D71 /* TaxCalculatorContextTests.m */; };
+		5F9A1F9E1DD7656800C5A8CD /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9A1F931DD7656800C5A8CD /* libOCMock.a */; };
+		5F9A1FA01DD7658D00C5A8CD /* ShoppingItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A1F9F1DD7658D00C5A8CD /* ShoppingItemTests.m */; };
+		5F9A1FA21DD765B200C5A8CD /* TaxCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A1FA11DD765B200C5A8CD /* TaxCalculatorTests.m */; };
+		5F9A1FA41DD765D500C5A8CD /* ShoppingCartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A1FA31DD765D500C5A8CD /* ShoppingCartTests.m */; };
+		5F9A1FA71DD7684600C5A8CD /* TaxCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A1FA61DD7684600C5A8CD /* TaxCalculator.m */; };
+		5F9A1FA81DD76B9200C5A8CD /* TaxCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A1FA61DD7684600C5A8CD /* TaxCalculator.m */; };
 		5FE1F6A41DD65F26002099A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE1F6A31DD65F26002099A2 /* main.m */; };
 		5FE1F6A71DD65F26002099A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE1F6A61DD65F26002099A2 /* AppDelegate.m */; };
-		5FE1F6AA1DD65F26002099A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE1F6A91DD65F26002099A2 /* ViewController.m */; };
 		5FE1F6AD1DD65F26002099A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE1F6AB1DD65F26002099A2 /* Main.storyboard */; };
 		5FE1F6AF1DD65F26002099A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE1F6AE1DD65F26002099A2 /* Assets.xcassets */; };
 		5FE1F6B21DD65F26002099A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE1F6B01DD65F26002099A2 /* LaunchScreen.storyboard */; };
 		5FE1F6BD1DD65F26002099A2 /* SalesTaxesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE1F6BC1DD65F26002099A2 /* SalesTaxesTests.m */; };
+		5FE1F6D21DD683B7002099A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE1F6D11DD683B7002099A2 /* ViewController.m */; };
+		5FE1F6D31DD683B7002099A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE1F6D11DD683B7002099A2 /* ViewController.m */; };
+		5FE1F6E51DD69150002099A2 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE1F6E31DD69150002099A2 /* Product.m */; };
+		5FE1F6E61DD69150002099A2 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE1F6E31DD69150002099A2 /* Product.m */; };
+		5FE1F6E91DD6917B002099A2 /* ImportTaxStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE1F6E81DD6917B002099A2 /* ImportTaxStrategy.m */; };
+		5FE1F6EA1DD6917B002099A2 /* ImportTaxStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE1F6E81DD6917B002099A2 /* ImportTaxStrategy.m */; };
+		5FE1F6ED1DD69212002099A2 /* BasicTaxStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE1F6EC1DD69212002099A2 /* BasicTaxStrategy.m */; };
+		5FE1F6EE1DD69212002099A2 /* BasicTaxStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE1F6EC1DD69212002099A2 /* BasicTaxStrategy.m */; };
+		5FE1F6F11DD69312002099A2 /* TaxCalculatorContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE1F6F01DD69312002099A2 /* TaxCalculatorContext.m */; };
+		5FE1F6F21DD69312002099A2 /* TaxCalculatorContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE1F6F01DD69312002099A2 /* TaxCalculatorContext.m */; };
+		5FE1F6F61DD69519002099A2 /* ShoppingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE1F6F51DD69519002099A2 /* ShoppingItem.m */; };
+		5FE1F6F71DD69519002099A2 /* ShoppingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE1F6F51DD69519002099A2 /* ShoppingItem.m */; };
+		5FE1F6FA1DD6AA3E002099A2 /* ShoppingCart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE1F6F91DD6AA3E002099A2 /* ShoppingCart.m */; };
+		5FE1F6FB1DD6AA3E002099A2 /* ShoppingCart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE1F6F91DD6AA3E002099A2 /* ShoppingCart.m */; };
+		5FE1F6FE1DD6B2B1002099A2 /* Receipt.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE1F6FD1DD6B2B1002099A2 /* Receipt.m */; };
+		5FE1F6FF1DD6B2B1002099A2 /* Receipt.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE1F6FD1DD6B2B1002099A2 /* Receipt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,12 +51,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F2D32F51DD7FEB900FC7D71 /* BasicStrategyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicStrategyTests.m; sourceTree = "<group>"; };
+		5F2D32F71DD7FED800FC7D71 /* ImportTaxStrategyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImportTaxStrategyTests.m; sourceTree = "<group>"; };
+		5F2D32F91DD7FEED00FC7D71 /* TaxCalculatorContextTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxCalculatorContextTests.m; sourceTree = "<group>"; };
+		5F9A1F931DD7656800C5A8CD /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		5F9A1F941DD7656800C5A8CD /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		5F9A1F951DD7656800C5A8CD /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		5F9A1F961DD7656800C5A8CD /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		5F9A1F971DD7656800C5A8CD /* OCMFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMFunctions.h; sourceTree = "<group>"; };
+		5F9A1F981DD7656800C5A8CD /* OCMLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMLocation.h; sourceTree = "<group>"; };
+		5F9A1F991DD7656800C5A8CD /* OCMMacroState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMMacroState.h; sourceTree = "<group>"; };
+		5F9A1F9A1DD7656800C5A8CD /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		5F9A1F9B1DD7656800C5A8CD /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		5F9A1F9C1DD7656800C5A8CD /* OCMRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMRecorder.h; sourceTree = "<group>"; };
+		5F9A1F9D1DD7656800C5A8CD /* OCMStubRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMStubRecorder.h; sourceTree = "<group>"; };
+		5F9A1F9F1DD7658D00C5A8CD /* ShoppingItemTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingItemTests.m; sourceTree = "<group>"; };
+		5F9A1FA11DD765B200C5A8CD /* TaxCalculatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxCalculatorTests.m; sourceTree = "<group>"; };
+		5F9A1FA31DD765D500C5A8CD /* ShoppingCartTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartTests.m; sourceTree = "<group>"; };
+		5F9A1FA51DD7684600C5A8CD /* TaxCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxCalculator.h; sourceTree = "<group>"; };
+		5F9A1FA61DD7684600C5A8CD /* TaxCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxCalculator.m; sourceTree = "<group>"; };
 		5FE1F69F1DD65F25002099A2 /* SalesTaxes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalesTaxes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE1F6A31DD65F26002099A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5FE1F6A51DD65F26002099A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5FE1F6A61DD65F26002099A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5FE1F6A81DD65F26002099A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5FE1F6A91DD65F26002099A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5FE1F6AC1DD65F26002099A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5FE1F6AE1DD65F26002099A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FE1F6B11DD65F26002099A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +81,25 @@
 		5FE1F6B81DD65F26002099A2 /* SalesTaxesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalesTaxesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE1F6BC1DD65F26002099A2 /* SalesTaxesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SalesTaxesTests.m; sourceTree = "<group>"; };
 		5FE1F6BE1DD65F26002099A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FE1F6D01DD683B7002099A2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5FE1F6D11DD683B7002099A2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5FE1F6DF1DD69048002099A2 /* TaxCalculationStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxCalculationStrategy.h; sourceTree = "<group>"; };
+		5FE1F6E11DD69150002099A2 /* ProductOrigin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductOrigin.h; sourceTree = "<group>"; };
+		5FE1F6E21DD69150002099A2 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		5FE1F6E31DD69150002099A2 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		5FE1F6E41DD69150002099A2 /* ProductType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductType.h; sourceTree = "<group>"; };
+		5FE1F6E71DD6917B002099A2 /* ImportTaxStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImportTaxStrategy.h; sourceTree = "<group>"; };
+		5FE1F6E81DD6917B002099A2 /* ImportTaxStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImportTaxStrategy.m; sourceTree = "<group>"; };
+		5FE1F6EB1DD69212002099A2 /* BasicTaxStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicTaxStrategy.h; sourceTree = "<group>"; };
+		5FE1F6EC1DD69212002099A2 /* BasicTaxStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicTaxStrategy.m; sourceTree = "<group>"; };
+		5FE1F6EF1DD69312002099A2 /* TaxCalculatorContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxCalculatorContext.h; sourceTree = "<group>"; };
+		5FE1F6F01DD69312002099A2 /* TaxCalculatorContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxCalculatorContext.m; sourceTree = "<group>"; };
+		5FE1F6F41DD69519002099A2 /* ShoppingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingItem.h; sourceTree = "<group>"; };
+		5FE1F6F51DD69519002099A2 /* ShoppingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingItem.m; sourceTree = "<group>"; };
+		5FE1F6F81DD6AA3E002099A2 /* ShoppingCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCart.h; sourceTree = "<group>"; };
+		5FE1F6F91DD6AA3E002099A2 /* ShoppingCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCart.m; sourceTree = "<group>"; };
+		5FE1F6FC1DD6B2B1002099A2 /* Receipt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Receipt.h; sourceTree = "<group>"; };
+		5FE1F6FD1DD6B2B1002099A2 /* Receipt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Receipt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +114,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F9A1F9E1DD7656800C5A8CD /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F9A1F921DD7656800C5A8CD /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				5F9A1F931DD7656800C5A8CD /* libOCMock.a */,
+				5F9A1F941DD7656800C5A8CD /* NSNotificationCenter+OCMAdditions.h */,
+				5F9A1F951DD7656800C5A8CD /* OCMArg.h */,
+				5F9A1F961DD7656800C5A8CD /* OCMConstraint.h */,
+				5F9A1F971DD7656800C5A8CD /* OCMFunctions.h */,
+				5F9A1F981DD7656800C5A8CD /* OCMLocation.h */,
+				5F9A1F991DD7656800C5A8CD /* OCMMacroState.h */,
+				5F9A1F9A1DD7656800C5A8CD /* OCMock.h */,
+				5F9A1F9B1DD7656800C5A8CD /* OCMockObject.h */,
+				5F9A1F9C1DD7656800C5A8CD /* OCMRecorder.h */,
+				5F9A1F9D1DD7656800C5A8CD /* OCMStubRecorder.h */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
 		5FE1F6961DD65F25002099A2 = {
 			isa = PBXGroup;
 			children = (
@@ -81,10 +160,10 @@
 		5FE1F6A11DD65F25002099A2 /* SalesTaxes */ = {
 			isa = PBXGroup;
 			children = (
+				5FE1F6CF1DD683B7002099A2 /* Controller */,
+				5FE1F6CB1DD683A7002099A2 /* Model */,
 				5FE1F6A51DD65F26002099A2 /* AppDelegate.h */,
 				5FE1F6A61DD65F26002099A2 /* AppDelegate.m */,
-				5FE1F6A81DD65F26002099A2 /* ViewController.h */,
-				5FE1F6A91DD65F26002099A2 /* ViewController.m */,
 				5FE1F6AB1DD65F26002099A2 /* Main.storyboard */,
 				5FE1F6AE1DD65F26002099A2 /* Assets.xcassets */,
 				5FE1F6B01DD65F26002099A2 /* LaunchScreen.storyboard */,
@@ -105,10 +184,76 @@
 		5FE1F6BB1DD65F26002099A2 /* SalesTaxesTests */ = {
 			isa = PBXGroup;
 			children = (
+				5F9A1F921DD7656800C5A8CD /* OCMock */,
+				5F2D32F51DD7FEB900FC7D71 /* BasicStrategyTests.m */,
+				5F2D32F71DD7FED800FC7D71 /* ImportTaxStrategyTests.m */,
 				5FE1F6BC1DD65F26002099A2 /* SalesTaxesTests.m */,
+				5F9A1F9F1DD7658D00C5A8CD /* ShoppingItemTests.m */,
+				5F9A1FA31DD765D500C5A8CD /* ShoppingCartTests.m */,
+				5F2D32F91DD7FEED00FC7D71 /* TaxCalculatorContextTests.m */,
+				5F9A1FA11DD765B200C5A8CD /* TaxCalculatorTests.m */,
 				5FE1F6BE1DD65F26002099A2 /* Info.plist */,
 			);
 			path = SalesTaxesTests;
+			sourceTree = "<group>";
+		};
+		5FE1F6CB1DD683A7002099A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5FE1F6E01DD69150002099A2 /* Product */,
+				5FE1F6F31DD69519002099A2 /* Shopping */,
+				5FE1F6DE1DD68FF8002099A2 /* Tax */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5FE1F6CF1DD683B7002099A2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5FE1F6D01DD683B7002099A2 /* ViewController.h */,
+				5FE1F6D11DD683B7002099A2 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5FE1F6DE1DD68FF8002099A2 /* Tax */ = {
+			isa = PBXGroup;
+			children = (
+				5FE1F6EB1DD69212002099A2 /* BasicTaxStrategy.h */,
+				5FE1F6EC1DD69212002099A2 /* BasicTaxStrategy.m */,
+				5FE1F6E71DD6917B002099A2 /* ImportTaxStrategy.h */,
+				5FE1F6E81DD6917B002099A2 /* ImportTaxStrategy.m */,
+				5FE1F6DF1DD69048002099A2 /* TaxCalculationStrategy.h */,
+				5FE1F6EF1DD69312002099A2 /* TaxCalculatorContext.h */,
+				5FE1F6F01DD69312002099A2 /* TaxCalculatorContext.m */,
+				5F9A1FA51DD7684600C5A8CD /* TaxCalculator.h */,
+				5F9A1FA61DD7684600C5A8CD /* TaxCalculator.m */,
+			);
+			path = Tax;
+			sourceTree = "<group>";
+		};
+		5FE1F6E01DD69150002099A2 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				5FE1F6E21DD69150002099A2 /* Product.h */,
+				5FE1F6E31DD69150002099A2 /* Product.m */,
+				5FE1F6E41DD69150002099A2 /* ProductType.h */,
+				5FE1F6E11DD69150002099A2 /* ProductOrigin.h */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		5FE1F6F31DD69519002099A2 /* Shopping */ = {
+			isa = PBXGroup;
+			children = (
+				5FE1F6F41DD69519002099A2 /* ShoppingItem.h */,
+				5FE1F6F51DD69519002099A2 /* ShoppingItem.m */,
+				5FE1F6F81DD6AA3E002099A2 /* ShoppingCart.h */,
+				5FE1F6F91DD6AA3E002099A2 /* ShoppingCart.m */,
+				5FE1F6FC1DD6B2B1002099A2 /* Receipt.h */,
+				5FE1F6FD1DD6B2B1002099A2 /* Receipt.m */,
+			);
+			path = Shopping;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,8 +359,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FE1F6AA1DD65F26002099A2 /* ViewController.m in Sources */,
+				5F9A1FA71DD7684600C5A8CD /* TaxCalculator.m in Sources */,
+				5FE1F6F61DD69519002099A2 /* ShoppingItem.m in Sources */,
+				5FE1F6D21DD683B7002099A2 /* ViewController.m in Sources */,
+				5FE1F6F11DD69312002099A2 /* TaxCalculatorContext.m in Sources */,
+				5FE1F6ED1DD69212002099A2 /* BasicTaxStrategy.m in Sources */,
 				5FE1F6A71DD65F26002099A2 /* AppDelegate.m in Sources */,
+				5FE1F6FA1DD6AA3E002099A2 /* ShoppingCart.m in Sources */,
+				5FE1F6FE1DD6B2B1002099A2 /* Receipt.m in Sources */,
+				5FE1F6E51DD69150002099A2 /* Product.m in Sources */,
+				5FE1F6E91DD6917B002099A2 /* ImportTaxStrategy.m in Sources */,
 				5FE1F6A41DD65F26002099A2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,7 +377,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FE1F6F21DD69312002099A2 /* TaxCalculatorContext.m in Sources */,
+				5F9A1FA81DD76B9200C5A8CD /* TaxCalculator.m in Sources */,
+				5FE1F6EA1DD6917B002099A2 /* ImportTaxStrategy.m in Sources */,
+				5F2D32F81DD7FED800FC7D71 /* ImportTaxStrategyTests.m in Sources */,
+				5FE1F6E61DD69150002099A2 /* Product.m in Sources */,
+				5F2D32FA1DD7FEED00FC7D71 /* TaxCalculatorContextTests.m in Sources */,
+				5F9A1FA21DD765B200C5A8CD /* TaxCalculatorTests.m in Sources */,
+				5FE1F6FB1DD6AA3E002099A2 /* ShoppingCart.m in Sources */,
+				5F9A1FA01DD7658D00C5A8CD /* ShoppingItemTests.m in Sources */,
+				5FE1F6EE1DD69212002099A2 /* BasicTaxStrategy.m in Sources */,
+				5F9A1FA41DD765D500C5A8CD /* ShoppingCartTests.m in Sources */,
+				5F2D32F61DD7FEB900FC7D71 /* BasicStrategyTests.m in Sources */,
+				5FE1F6F71DD69519002099A2 /* ShoppingItem.m in Sources */,
+				5FE1F6D31DD683B7002099A2 /* ViewController.m in Sources */,
 				5FE1F6BD1DD65F26002099A2 /* SalesTaxesTests.m in Sources */,
+				5FE1F6FF1DD6B2B1002099A2 /* Receipt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,8 +543,14 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = Y682K92RZU;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/SalesTaxesTests/";
 				INFOPLIST_FILE = SalesTaxesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SalesTaxesTests/OCMock",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = it.chicio.SalesTaxes.SalesTaxesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -387,8 +561,14 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = Y682K92RZU;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/SalesTaxesTests/";
 				INFOPLIST_FILE = SalesTaxesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SalesTaxesTests/OCMock",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = it.chicio.SalesTaxes.SalesTaxesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
