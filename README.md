@@ -72,7 +72,7 @@ I created a small iOS app written using Objective-C. The app is a prototype with
 
 ***
 ###Tools
-I used <a href="https://travis-ci.org">Travis-CI</a> as Continuous Integration service (s).
+I used <a href="https://travis-ci.org">Travis-CI</a> as Continuous Integration service.
 I used OCMock as Mocking framework for the test implementation.
 I used <a href="https://codecov.io/gh">codecov</a> as Code Coverage service.
 Code coverage has also been activated in XCode scheme. In this way it is possible to see code coverage live inside the IDE (see screenshot below).
