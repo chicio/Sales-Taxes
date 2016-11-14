@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/chicio/Sales-Taxes.svg?branch=master)](https://travis-ci.org/chicio/Sales-Taxes)
 [![codecov](https://codecov.io/gh/chicio/Sales-Taxes/branch/master/graph/badge.svg)](https://codecov.io/gh/chicio/Sales-Taxes)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/chicio/Sales-Taxes/blob/master/LICENSE.md)
 ![Supported platform](https://img.shields.io/badge/platform-iOS-orange.svg)
 
 An iOS implementation of the Sales Taxes technical interview problem.
