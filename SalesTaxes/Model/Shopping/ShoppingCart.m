@@ -10,7 +10,7 @@
 
 @interface ShoppingCart ()
 
-/// Total amount of cart (based on current items conatined in it).
+/// Total amount of cart (based on current items contained in it).
 @property (nonatomic, assign) float totalCart;
 /// Total amount of taxes of cart (based on current items).
 @property (nonatomic, assign) float totalTaxes;
