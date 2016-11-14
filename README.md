@@ -60,5 +60,32 @@ OUTPUT
 > <li>Total: 74.68</li>
 ><ul>
 
+***
+###Overview
 
+I created a small iOS app written using Objective-C. The app is a prototype with a simple UI that could be used to test visually that the apps meet the requirments of the problem (see animation below).The three input data set contained in the problem text are also contained in a test suit (SalesTaxesTests.m) that could be used to verify the correctness of the code.
 
+<p align="center">
+<img src="https://github.com/chicio/Sales-Taxes/blob/master/Screenshots/app-ui.gif"/>
+</p>
+
+***
+###Tools
+I used <a href="https://travis-ci.org">Travis-CI</a> as Continuous Integration service (s).
+I used OCMock as Mocking framework for the test implementation.
+I used <a href="https://codecov.io/gh">codecov</a> as Code Coverage service.
+Code coverage has also been activated in XCode scheme. In this way it is possible to see code coverage live inside the IDE (see screenshot below).
+
+<p align="center">
+<img src="https://github.com/chicio/Sales-Taxes/blob/master/Screenshots/xcode-code-coverage.png"/>
+</p>
+
+<p align="center">
+<img src="https://github.com/chicio/Sales-Taxes/blob/master/Screenshots/xcode-code-coverage-2.png"/>
+</p>
+
+All code has been commented using XCode documentation syntax. It is possible to access to the documentation of a class or method using the shorcut Alt + Left Mouse Click on any name (see screenshot below).
+
+<p align="center">
+<img src="https://github.com/chicio/Sales-Taxes/blob/master/Screenshots/xcode-comments.png"/>
+</p>
