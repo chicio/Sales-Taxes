@@ -42,7 +42,7 @@
     OCMStub([mockProduct productOrigin]).andReturn(Local);
     
     id mockTaxCalculator = OCMClassMock([TaxCalculator class]);
-    OCMStub([mockTaxCalculator calculateTax:mockProduct]).andReturn(0.5f);
+    OCMStub([mockTaxCalculator getTaxes:mockProduct]).andReturn(0.5f);
     
     ShoppingItem *shoppingItem = [[ShoppingItem alloc] initWithProduct:mockProduct
                                                            andQuantity:1
@@ -64,7 +64,7 @@
     OCMStub([mockProduct productOrigin]).andReturn(Local);
     
     id mockTaxCalculator = OCMClassMock([TaxCalculator class]);
-    OCMStub([mockTaxCalculator calculateTax:mockProduct]).andReturn(0.50f);
+    OCMStub([mockTaxCalculator getTaxes:mockProduct]).andReturn(0.50f);
     
     ShoppingItem *shoppingItem = [[ShoppingItem alloc] initWithProduct:mockProduct
                                                            andQuantity:1
@@ -86,7 +86,7 @@
     OCMStub([mockProduct productOrigin]).andReturn(Local);
     
     id mockTaxCalculator = OCMClassMock([TaxCalculator class]);
-    OCMStub([mockTaxCalculator calculateTax:mockProduct]).andReturn(0.50f);
+    OCMStub([mockTaxCalculator getTaxes:mockProduct]).andReturn(0.50f);
     
     ShoppingItem *shoppingItem = [[ShoppingItem alloc] initWithProduct:mockProduct
                                                            andQuantity:4
@@ -108,7 +108,7 @@
     OCMStub([mockProduct productOrigin]).andReturn(Local);
     
     id mockTaxCalculator = OCMClassMock([TaxCalculator class]);
-    OCMStub([mockTaxCalculator calculateTax:mockProduct]).andReturn(0.50f);
+    OCMStub([mockTaxCalculator getTaxes:mockProduct]).andReturn(0.50f);
     
     ShoppingItem *shoppingItem = [[ShoppingItem alloc] initWithProduct:mockProduct
                                                            andQuantity:4

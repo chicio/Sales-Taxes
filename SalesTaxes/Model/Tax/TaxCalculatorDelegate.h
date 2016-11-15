@@ -1,20 +1,21 @@
 //
-//  TaxCalculator.h
+//  TaxCalculatorProtocol.h
 //  SalesTaxes
 //
-//  Created by Fabrizio Duroni on 12/11/2016.
+//  Created by Fabrizio Duroni on 15/11/2016.
 //  Copyright © 2016 Fabrizio Duroni. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-#import "TaxCalculatorDelegate.h"
+#import "Product.h"
 
 /*!
- Tax Calculator class.
- A facade class used to calculate the taxes for a product.
+ A protocol used to delegate the tax calculation.
  */
-@interface TaxCalculator : NSObject <TaxCalculatorDelegate>
+@protocol TaxCalculatorDelegate <NSObject>
+
+@required
 
 /*!
  Get taxes rounded up for the product received as input.

@@ -7,6 +7,7 @@
 //
 
 #import "ShoppingItem.h"
+#import "TaxCalculatorDelegate.h"
 
 @interface ShoppingItem ()
 
@@ -15,7 +16,7 @@
 /// Quantity of product to be purchased.
 @property (readwrite, nonatomic, assign) int quantity;
 /// Tax Calculator for the shop item.
-@property (nonatomic, strong) TaxCalculator *taxCalculator;
+@property (nonatomic, strong) id<TaxCalculatorDelegate> taxCalculator;
 
 @end
 
@@ -44,7 +45,7 @@
 
 - (float)getTaxes {
     
-    float taxes = self.quantity * [self.taxCalculator calculateTax:self.product];
+    float taxes = self.quantity * [self.taxCalculator getTaxes:self.product];
 
     return taxes;
 }

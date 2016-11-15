@@ -15,7 +15,8 @@
 
 @interface TaxCalculator ()
 
-/// Tax Calculator Contextr.
+/// Tax Calculator Context.
+
 @property (nonatomic, strong) TaxCalculatorContext *taxCalculatorContext;
 
 @end
@@ -34,7 +35,7 @@
     return self;
 }
 
-- (float)calculateTax:(Product *)product {
+- (float)getTaxes:(Product *)product {
 
     float taxes = 0.0f;
     

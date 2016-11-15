@@ -80,6 +80,7 @@
 		5F9A1FA31DD765D500C5A8CD /* ShoppingCartTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartTests.m; sourceTree = "<group>"; };
 		5F9A1FA51DD7684600C5A8CD /* TaxCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxCalculator.h; sourceTree = "<group>"; };
 		5F9A1FA61DD7684600C5A8CD /* TaxCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxCalculator.m; sourceTree = "<group>"; };
+		5FAB19901DDB1A4000ABBAC4 /* TaxCalculatorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxCalculatorDelegate.h; sourceTree = "<group>"; };
 		5FE1F69F1DD65F25002099A2 /* SalesTaxes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalesTaxes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE1F6A31DD65F26002099A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5FE1F6A51DD65F26002099A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -252,6 +253,7 @@
 				5FE1F6F01DD69312002099A2 /* TaxCalculatorContext.m */,
 				5F9A1FA51DD7684600C5A8CD /* TaxCalculator.h */,
 				5F9A1FA61DD7684600C5A8CD /* TaxCalculator.m */,
+				5FAB19901DDB1A4000ABBAC4 /* TaxCalculatorDelegate.h */,
 			);
 			path = Tax;
 			sourceTree = "<group>";

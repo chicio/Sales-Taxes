@@ -44,7 +44,7 @@
     
     TaxCalculator *taxCalculator = [[TaxCalculator alloc] init];
     
-    XCTAssertEqual([taxCalculator calculateTax:mockProduct], 0.60f, @"Failed shopping cart total taxes.");
+    XCTAssertEqual([taxCalculator getTaxes:mockProduct], 0.60f, @"Failed shopping cart total taxes.");
 }
 
 @end
