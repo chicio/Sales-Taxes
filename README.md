@@ -64,7 +64,7 @@ OUTPUT
 ***
 ###Overview
 
-I created a small iOS app written using Objective-C. The app is a prototype with a simple UI that could be used to test visually that the apps meet the requirments of the problem (see animation below).The three input data set contained in the problem text are also contained in a test suit (SalesTaxesTests.m) that could be used to verify the correctness of the code.
+I created two versions of the same iOS app: the first written using Objective-C, the second one written using Swift. The app is a prototype with a simple UI that could be used to test visually that the apps meet the requirments of the problem (see animation below).The three input data set contained in the problem text are also contained in a test suit (SalesTaxesTests.m) that could be used to verify the correctness of the code.
 
 <p align="center">
 <img src="https://github.com/chicio/Sales-Taxes/blob/master/Screenshots/app-ui.gif"/>
@@ -73,8 +73,8 @@ I created a small iOS app written using Objective-C. The app is a prototype with
 ***
 ###Tools
 I used <a href="https://travis-ci.org">Travis-CI</a> as Continuous Integration service.
-I used OCMock as Mocking framework for the test implementation.
-I used <a href="https://codecov.io/gh">codecov</a> as Code Coverage service.
+I used OCMock as Mocking framework for the test implementation (only Objective-C version).
+I used <a href="https://codecov.io/gh">codecov</a> as Code Coverage service (only Objective-C version).
 Code coverage has also been activated in XCode scheme. In this way it is possible to see code coverage live inside the IDE (see screenshot below).
 
 <p align="center">
