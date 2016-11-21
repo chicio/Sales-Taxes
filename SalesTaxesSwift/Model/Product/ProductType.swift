@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum ProductType {
+enum ProductType: String {
     case Book
     case Food
     case Medical

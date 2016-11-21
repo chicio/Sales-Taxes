@@ -72,7 +72,7 @@ class SalesTaxesSwiftTests: XCTestCase {
         let product1 = Product(aName:"imported bottle of perfume", aPrice:27.99, aType:.Other, aOrigin:.Imported);
         let product2 = Product(aName:"bottle of perfume", aPrice:18.99, aType:.Other, aOrigin:.Local);
         let product3 = Product(aName:"packet of headachepills", aPrice:9.75, aType:.Medical, aOrigin:.Local);
-        let product4 = Product(aName:"packet of headachepills", aPrice:11.25, aType:.Food, aOrigin:.Imported);
+        let product4 = Product(aName:"box of imported chocolates", aPrice:11.25, aType:.Food, aOrigin:.Imported);
 
         let taxCalculator = TaxCalculator()
 

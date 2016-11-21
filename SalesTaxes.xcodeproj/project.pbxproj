@@ -44,7 +44,8 @@
 		5F8CC8531DE267B200A5F776 /* TaxCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC8311DE1F86300A5F776 /* TaxCalculator.swift */; };
 		5F8CC8541DE267B200A5F776 /* TaxCalculatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC8331DE1F8DC00A5F776 /* TaxCalculatorDelegate.swift */; };
 		5F8CC8561DE2727E00A5F776 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC8551DE2727E00A5F776 /* ShoppingViewController.swift */; };
-		5F8CC8571DE2728400A5F776 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC8551DE2727E00A5F776 /* ShoppingViewController.swift */; };
+		5F8CC8591DE2756800A5F776 /* ReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC8581DE2756800A5F776 /* ReceiptViewController.swift */; };
+		5F8CC85B1DE277E300A5F776 /* ShoppingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC85A1DE277E300A5F776 /* ShoppingCell.swift */; };
 		5F9A1F9E1DD7656800C5A8CD /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9A1F931DD7656800C5A8CD /* libOCMock.a */; };
 		5F9A1FA01DD7658D00C5A8CD /* ShoppingItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A1F9F1DD7658D00C5A8CD /* ShoppingItemTests.m */; };
 		5F9A1FA21DD765B200C5A8CD /* TaxCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A1FA11DD765B200C5A8CD /* TaxCalculatorTests.m */; };
@@ -124,6 +125,8 @@
 		5F8CC8451DE1FD6F00A5F776 /* ShoppingCart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCart.swift; sourceTree = "<group>"; };
 		5F8CC8471DE262B300A5F776 /* Receipt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Receipt.swift; sourceTree = "<group>"; };
 		5F8CC8551DE2727E00A5F776 /* ShoppingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
+		5F8CC8581DE2756800A5F776 /* ReceiptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptViewController.swift; sourceTree = "<group>"; };
+		5F8CC85A1DE277E300A5F776 /* ShoppingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCell.swift; sourceTree = "<group>"; };
 		5F9A1F931DD7656800C5A8CD /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
 		5F9A1F941DD7656800C5A8CD /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
 		5F9A1F951DD7656800C5A8CD /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
@@ -234,6 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				5F8CC8551DE2727E00A5F776 /* ShoppingViewController.swift */,
+				5F8CC8581DE2756800A5F776 /* ReceiptViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -251,6 +255,7 @@
 		5F8CC81F1DE1ECC900A5F776 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5F8CC85A1DE277E300A5F776 /* ShoppingCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -616,6 +621,7 @@
 				5F8CC8481DE262B300A5F776 /* Receipt.swift in Sources */,
 				5F8CC8281DE1F00C00A5F776 /* ProductOrigin.swift in Sources */,
 				5F8CC8561DE2727E00A5F776 /* ShoppingViewController.swift in Sources */,
+				5F8CC85B1DE277E300A5F776 /* ShoppingCell.swift in Sources */,
 				5F8CC8001DE1EBC800A5F776 /* AppDelegate.swift in Sources */,
 				5F8CC82A1DE1F1EC00A5F776 /* BasicTaxStrategy.swift in Sources */,
 				5F8CC8321DE1F86300A5F776 /* TaxCalculator.swift in Sources */,
@@ -623,6 +629,7 @@
 				5F8CC8341DE1F8DC00A5F776 /* TaxCalculatorDelegate.swift in Sources */,
 				5F8CC82E1DE1F53A00A5F776 /* ImportTaxStrategy.swift in Sources */,
 				5F8CC8461DE1FD6F00A5F776 /* ShoppingCart.swift in Sources */,
+				5F8CC8591DE2756800A5F776 /* ReceiptViewController.swift in Sources */,
 				5F8CC82C1DE1F21100A5F776 /* TaxCalculationStrategy.swift in Sources */,
 				5F8CC8261DE1EF6100A5F776 /* ProductType.swift in Sources */,
 			);
@@ -634,7 +641,6 @@
 			files = (
 				5F8CC84D1DE267B200A5F776 /* ShoppingItem.swift in Sources */,
 				5F8CC84C1DE267B200A5F776 /* Receipt.swift in Sources */,
-				5F8CC8571DE2728400A5F776 /* ShoppingViewController.swift in Sources */,
 				5F8CC8541DE267B200A5F776 /* TaxCalculatorDelegate.swift in Sources */,
 				5F8CC83E1DE1FD6000A5F776 /* SalesTaxesSwiftTests.swift in Sources */,
 				5F8CC8521DE267B200A5F776 /* TaxCalculatorContext.swift in Sources */,

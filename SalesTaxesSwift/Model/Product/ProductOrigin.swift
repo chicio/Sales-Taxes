@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum ProductOrigin {
+enum ProductOrigin: String {
     case Local
     case Imported
 }
