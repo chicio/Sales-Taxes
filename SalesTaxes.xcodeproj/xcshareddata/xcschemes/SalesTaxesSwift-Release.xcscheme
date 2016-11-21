@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5FE1F69E1DD65F25002099A2"
-               BuildableName = "SalesTaxes.app"
-               BlueprintName = "SalesTaxes"
+               BlueprintIdentifier = "5F8CC7FC1DE1EBC800A5F776"
+               BuildableName = "SalesTaxesSwift.app"
+               BlueprintName = "SalesTaxesSwift"
                ReferencedContainer = "container:SalesTaxes.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5FE1F69E1DD65F25002099A2"
-            BuildableName = "SalesTaxes.app"
-            BlueprintName = "SalesTaxes"
+            BlueprintIdentifier = "5F8CC7FC1DE1EBC800A5F776"
+            BuildableName = "SalesTaxesSwift.app"
+            BlueprintName = "SalesTaxesSwift"
             ReferencedContainer = "container:SalesTaxes.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5FE1F69E1DD65F25002099A2"
-            BuildableName = "SalesTaxes.app"
-            BlueprintName = "SalesTaxes"
+            BlueprintIdentifier = "5F8CC7FC1DE1EBC800A5F776"
+            BuildableName = "SalesTaxesSwift.app"
+            BlueprintName = "SalesTaxesSwift"
             ReferencedContainer = "container:SalesTaxes.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5FE1F69E1DD65F25002099A2"
-            BuildableName = "SalesTaxes.app"
-            BlueprintName = "SalesTaxes"
+            BlueprintIdentifier = "5F8CC7FC1DE1EBC800A5F776"
+            BuildableName = "SalesTaxesSwift.app"
+            BlueprintName = "SalesTaxesSwift"
             ReferencedContainer = "container:SalesTaxes.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -22,7 +22,7 @@
 
 @implementation ShoppingItem
 
-- (instancetype)initWithProduct:(Product *)aProduct andQuantity:(int)aQuantity andTaxCalculator:(TaxCalculator *)aTaxCalculator {
+- (instancetype)initWithProduct:(Product *)aProduct andQuantity:(int)aQuantity andTaxCalculator:(id<TaxCalculatorDelegate>)aTaxCalculator {
     
     self = [super init];
     

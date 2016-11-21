@@ -27,6 +27,8 @@
 
 /*!
  Generate receipt using the shopping cart received as parameter.
+ 
+ @returns receipt content.
  */
 - (NSString *)generateReceipt;
 

@@ -14,6 +14,36 @@
 		5F2D33011DD80CF100FC7D71 /* ShoppingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2D33001DD80CF100FC7D71 /* ShoppingCell.m */; };
 		5F8606C51DD8AC9B00126D68 /* ReceiptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8606C41DD8AC9B00126D68 /* ReceiptTests.m */; };
 		5F8606C71DD9150000126D68 /* ProductTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8606C61DD9150000126D68 /* ProductTests.m */; };
+		5F8CC8001DE1EBC800A5F776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC7FF1DE1EBC800A5F776 /* AppDelegate.swift */; };
+		5F8CC8021DE1EBC800A5F776 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC8011DE1EBC800A5F776 /* ViewController.swift */; };
+		5F8CC8051DE1EBC800A5F776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F8CC8031DE1EBC800A5F776 /* Main.storyboard */; };
+		5F8CC8071DE1EBC800A5F776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F8CC8061DE1EBC800A5F776 /* Assets.xcassets */; };
+		5F8CC80A1DE1EBC800A5F776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F8CC8081DE1EBC800A5F776 /* LaunchScreen.storyboard */; };
+		5F8CC8241DE1ECF700A5F776 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC8231DE1ECF700A5F776 /* Product.swift */; };
+		5F8CC8261DE1EF6100A5F776 /* ProductType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC8251DE1EF6100A5F776 /* ProductType.swift */; };
+		5F8CC8281DE1F00C00A5F776 /* ProductOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC8271DE1F00C00A5F776 /* ProductOrigin.swift */; };
+		5F8CC82A1DE1F1EC00A5F776 /* BasicTaxStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC8291DE1F1EC00A5F776 /* BasicTaxStrategy.swift */; };
+		5F8CC82C1DE1F21100A5F776 /* TaxCalculationStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC82B1DE1F21100A5F776 /* TaxCalculationStrategy.swift */; };
+		5F8CC82E1DE1F53A00A5F776 /* ImportTaxStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC82D1DE1F53A00A5F776 /* ImportTaxStrategy.swift */; };
+		5F8CC8301DE1F5A700A5F776 /* TaxCalculatorContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC82F1DE1F5A700A5F776 /* TaxCalculatorContext.swift */; };
+		5F8CC8321DE1F86300A5F776 /* TaxCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC8311DE1F86300A5F776 /* TaxCalculator.swift */; };
+		5F8CC8341DE1F8DC00A5F776 /* TaxCalculatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC8331DE1F8DC00A5F776 /* TaxCalculatorDelegate.swift */; };
+		5F8CC8361DE1FAF900A5F776 /* ShoppingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC8351DE1FAF900A5F776 /* ShoppingItem.swift */; };
+		5F8CC83E1DE1FD6000A5F776 /* SalesTaxesSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC83D1DE1FD6000A5F776 /* SalesTaxesSwiftTests.swift */; };
+		5F8CC8461DE1FD6F00A5F776 /* ShoppingCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC8451DE1FD6F00A5F776 /* ShoppingCart.swift */; };
+		5F8CC8481DE262B300A5F776 /* Receipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC8471DE262B300A5F776 /* Receipt.swift */; };
+		5F8CC8491DE2676500A5F776 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC8231DE1ECF700A5F776 /* Product.swift */; };
+		5F8CC84A1DE267A900A5F776 /* ProductType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC8251DE1EF6100A5F776 /* ProductType.swift */; };
+		5F8CC84B1DE267A900A5F776 /* ProductOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC8271DE1F00C00A5F776 /* ProductOrigin.swift */; };
+		5F8CC84C1DE267B200A5F776 /* Receipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC8471DE262B300A5F776 /* Receipt.swift */; };
+		5F8CC84D1DE267B200A5F776 /* ShoppingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC8351DE1FAF900A5F776 /* ShoppingItem.swift */; };
+		5F8CC84E1DE267B200A5F776 /* ShoppingCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC8451DE1FD6F00A5F776 /* ShoppingCart.swift */; };
+		5F8CC84F1DE267B200A5F776 /* BasicTaxStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC8291DE1F1EC00A5F776 /* BasicTaxStrategy.swift */; };
+		5F8CC8501DE267B200A5F776 /* ImportTaxStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC82D1DE1F53A00A5F776 /* ImportTaxStrategy.swift */; };
+		5F8CC8511DE267B200A5F776 /* TaxCalculationStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC82B1DE1F21100A5F776 /* TaxCalculationStrategy.swift */; };
+		5F8CC8521DE267B200A5F776 /* TaxCalculatorContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC82F1DE1F5A700A5F776 /* TaxCalculatorContext.swift */; };
+		5F8CC8531DE267B200A5F776 /* TaxCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC8311DE1F86300A5F776 /* TaxCalculator.swift */; };
+		5F8CC8541DE267B200A5F776 /* TaxCalculatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC8331DE1F8DC00A5F776 /* TaxCalculatorDelegate.swift */; };
 		5F9A1F9E1DD7656800C5A8CD /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9A1F931DD7656800C5A8CD /* libOCMock.a */; };
 		5F9A1FA01DD7658D00C5A8CD /* ShoppingItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A1F9F1DD7658D00C5A8CD /* ShoppingItemTests.m */; };
 		5F9A1FA21DD765B200C5A8CD /* TaxCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A1FA11DD765B200C5A8CD /* TaxCalculatorTests.m */; };
@@ -45,6 +75,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5F8CC8401DE1FD6000A5F776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FE1F6971DD65F25002099A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F8CC7FC1DE1EBC800A5F776;
+			remoteInfo = SalesTaxesSwift;
+		};
 		5FE1F6B91DD65F26002099A2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5FE1F6971DD65F25002099A2 /* Project object */;
@@ -64,6 +101,28 @@
 		5F2D33001DD80CF100FC7D71 /* ShoppingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCell.m; sourceTree = "<group>"; };
 		5F8606C41DD8AC9B00126D68 /* ReceiptTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiptTests.m; sourceTree = "<group>"; };
 		5F8606C61DD9150000126D68 /* ProductTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductTests.m; sourceTree = "<group>"; };
+		5F8CC7FD1DE1EBC800A5F776 /* SalesTaxesSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalesTaxesSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F8CC7FF1DE1EBC800A5F776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F8CC8011DE1EBC800A5F776 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F8CC8041DE1EBC800A5F776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F8CC8061DE1EBC800A5F776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F8CC8091DE1EBC800A5F776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F8CC80B1DE1EBC800A5F776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F8CC8231DE1ECF700A5F776 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		5F8CC8251DE1EF6100A5F776 /* ProductType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductType.swift; sourceTree = "<group>"; };
+		5F8CC8271DE1F00C00A5F776 /* ProductOrigin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductOrigin.swift; sourceTree = "<group>"; };
+		5F8CC8291DE1F1EC00A5F776 /* BasicTaxStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicTaxStrategy.swift; sourceTree = "<group>"; };
+		5F8CC82B1DE1F21100A5F776 /* TaxCalculationStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxCalculationStrategy.swift; sourceTree = "<group>"; };
+		5F8CC82D1DE1F53A00A5F776 /* ImportTaxStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportTaxStrategy.swift; sourceTree = "<group>"; };
+		5F8CC82F1DE1F5A700A5F776 /* TaxCalculatorContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxCalculatorContext.swift; sourceTree = "<group>"; };
+		5F8CC8311DE1F86300A5F776 /* TaxCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxCalculator.swift; sourceTree = "<group>"; };
+		5F8CC8331DE1F8DC00A5F776 /* TaxCalculatorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxCalculatorDelegate.swift; sourceTree = "<group>"; };
+		5F8CC8351DE1FAF900A5F776 /* ShoppingItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingItem.swift; sourceTree = "<group>"; };
+		5F8CC83B1DE1FD6000A5F776 /* SalesTaxesSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalesTaxesSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F8CC83D1DE1FD6000A5F776 /* SalesTaxesSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesTaxesSwiftTests.swift; sourceTree = "<group>"; };
+		5F8CC83F1DE1FD6000A5F776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F8CC8451DE1FD6F00A5F776 /* ShoppingCart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCart.swift; sourceTree = "<group>"; };
+		5F8CC8471DE262B300A5F776 /* Receipt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Receipt.swift; sourceTree = "<group>"; };
 		5F9A1F931DD7656800C5A8CD /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
 		5F9A1F941DD7656800C5A8CD /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
 		5F9A1F951DD7656800C5A8CD /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
@@ -114,6 +173,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5F8CC7FA1DE1EBC800A5F776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F8CC8381DE1FD6000A5F776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5FE1F69C1DD65F25002099A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -141,6 +214,88 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		5F8CC7FE1DE1EBC800A5F776 /* SalesTaxesSwift */ = {
+			isa = PBXGroup;
+			children = (
+				5F8CC81F1DE1ECC900A5F776 /* View */,
+				5F8CC81D1DE1ECC900A5F776 /* Controller */,
+				5F8CC81E1DE1ECC900A5F776 /* Model */,
+				5F8CC7FF1DE1EBC800A5F776 /* AppDelegate.swift */,
+				5F8CC8011DE1EBC800A5F776 /* ViewController.swift */,
+				5F8CC8031DE1EBC800A5F776 /* Main.storyboard */,
+				5F8CC8061DE1EBC800A5F776 /* Assets.xcassets */,
+				5F8CC8081DE1EBC800A5F776 /* LaunchScreen.storyboard */,
+				5F8CC80B1DE1EBC800A5F776 /* Info.plist */,
+			);
+			path = SalesTaxesSwift;
+			sourceTree = "<group>";
+		};
+		5F8CC81D1DE1ECC900A5F776 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5F8CC81E1DE1ECC900A5F776 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F8CC8201DE1ECE700A5F776 /* Product */,
+				5F8CC8211DE1ECE700A5F776 /* Shopping */,
+				5F8CC8221DE1ECE700A5F776 /* Tax */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F8CC81F1DE1ECC900A5F776 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F8CC8201DE1ECE700A5F776 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				5F8CC8231DE1ECF700A5F776 /* Product.swift */,
+				5F8CC8251DE1EF6100A5F776 /* ProductType.swift */,
+				5F8CC8271DE1F00C00A5F776 /* ProductOrigin.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		5F8CC8211DE1ECE700A5F776 /* Shopping */ = {
+			isa = PBXGroup;
+			children = (
+				5F8CC8471DE262B300A5F776 /* Receipt.swift */,
+				5F8CC8351DE1FAF900A5F776 /* ShoppingItem.swift */,
+				5F8CC8451DE1FD6F00A5F776 /* ShoppingCart.swift */,
+			);
+			path = Shopping;
+			sourceTree = "<group>";
+		};
+		5F8CC8221DE1ECE700A5F776 /* Tax */ = {
+			isa = PBXGroup;
+			children = (
+				5F8CC8291DE1F1EC00A5F776 /* BasicTaxStrategy.swift */,
+				5F8CC82D1DE1F53A00A5F776 /* ImportTaxStrategy.swift */,
+				5F8CC82B1DE1F21100A5F776 /* TaxCalculationStrategy.swift */,
+				5F8CC82F1DE1F5A700A5F776 /* TaxCalculatorContext.swift */,
+				5F8CC8311DE1F86300A5F776 /* TaxCalculator.swift */,
+				5F8CC8331DE1F8DC00A5F776 /* TaxCalculatorDelegate.swift */,
+			);
+			path = Tax;
+			sourceTree = "<group>";
+		};
+		5F8CC83C1DE1FD6000A5F776 /* SalesTaxesSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F8CC83D1DE1FD6000A5F776 /* SalesTaxesSwiftTests.swift */,
+				5F8CC83F1DE1FD6000A5F776 /* Info.plist */,
+			);
+			path = SalesTaxesSwiftTests;
+			sourceTree = "<group>";
+		};
 		5F9A1F921DD7656800C5A8CD /* OCMock */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +319,8 @@
 			children = (
 				5FE1F6A11DD65F25002099A2 /* SalesTaxes */,
 				5FE1F6BB1DD65F26002099A2 /* SalesTaxesTests */,
+				5F8CC7FE1DE1EBC800A5F776 /* SalesTaxesSwift */,
+				5F8CC83C1DE1FD6000A5F776 /* SalesTaxesSwiftTests */,
 				5FE1F6A01DD65F25002099A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -173,6 +330,8 @@
 			children = (
 				5FE1F69F1DD65F25002099A2 /* SalesTaxes.app */,
 				5FE1F6B81DD65F26002099A2 /* SalesTaxesTests.xctest */,
+				5F8CC7FD1DE1EBC800A5F776 /* SalesTaxesSwift.app */,
+				5F8CC83B1DE1FD6000A5F776 /* SalesTaxesSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -285,6 +444,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5F8CC7FC1DE1EBC800A5F776 /* SalesTaxesSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F8CC81B1DE1EBC900A5F776 /* Build configuration list for PBXNativeTarget "SalesTaxesSwift" */;
+			buildPhases = (
+				5F8CC7F91DE1EBC800A5F776 /* Sources */,
+				5F8CC7FA1DE1EBC800A5F776 /* Frameworks */,
+				5F8CC7FB1DE1EBC800A5F776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SalesTaxesSwift;
+			productName = SalesTaxesSwift;
+			productReference = 5F8CC7FD1DE1EBC800A5F776 /* SalesTaxesSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F8CC83A1DE1FD6000A5F776 /* SalesTaxesSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F8CC8421DE1FD6000A5F776 /* Build configuration list for PBXNativeTarget "SalesTaxesSwiftTests" */;
+			buildPhases = (
+				5F8CC8371DE1FD6000A5F776 /* Sources */,
+				5F8CC8381DE1FD6000A5F776 /* Frameworks */,
+				5F8CC8391DE1FD6000A5F776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F8CC8411DE1FD6000A5F776 /* PBXTargetDependency */,
+			);
+			name = SalesTaxesSwiftTests;
+			productName = SalesTaxesSwiftTests;
+			productReference = 5F8CC83B1DE1FD6000A5F776 /* SalesTaxesSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		5FE1F69E1DD65F25002099A2 /* SalesTaxes */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5FE1F6C11DD65F26002099A2 /* Build configuration list for PBXNativeTarget "SalesTaxes" */;
@@ -326,9 +520,21 @@
 		5FE1F6971DD65F25002099A2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Fabrizio Duroni";
 				TargetAttributes = {
+					5F8CC7FC1DE1EBC800A5F776 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Y682K92RZU;
+						ProvisioningStyle = Automatic;
+					};
+					5F8CC83A1DE1FD6000A5F776 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Y682K92RZU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5F8CC7FC1DE1EBC800A5F776;
+					};
 					5FE1F69E1DD65F25002099A2 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = Y682K92RZU;
@@ -356,11 +562,30 @@
 			targets = (
 				5FE1F69E1DD65F25002099A2 /* SalesTaxes */,
 				5FE1F6B71DD65F26002099A2 /* SalesTaxesTests */,
+				5F8CC7FC1DE1EBC800A5F776 /* SalesTaxesSwift */,
+				5F8CC83A1DE1FD6000A5F776 /* SalesTaxesSwiftTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5F8CC7FB1DE1EBC800A5F776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F8CC80A1DE1EBC800A5F776 /* LaunchScreen.storyboard in Resources */,
+				5F8CC8071DE1EBC800A5F776 /* Assets.xcassets in Resources */,
+				5F8CC8051DE1EBC800A5F776 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F8CC8391DE1FD6000A5F776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5FE1F69D1DD65F25002099A2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -381,6 +606,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5F8CC7F91DE1EBC800A5F776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F8CC8361DE1FAF900A5F776 /* ShoppingItem.swift in Sources */,
+				5F8CC8301DE1F5A700A5F776 /* TaxCalculatorContext.swift in Sources */,
+				5F8CC8481DE262B300A5F776 /* Receipt.swift in Sources */,
+				5F8CC8281DE1F00C00A5F776 /* ProductOrigin.swift in Sources */,
+				5F8CC8021DE1EBC800A5F776 /* ViewController.swift in Sources */,
+				5F8CC8001DE1EBC800A5F776 /* AppDelegate.swift in Sources */,
+				5F8CC82A1DE1F1EC00A5F776 /* BasicTaxStrategy.swift in Sources */,
+				5F8CC8321DE1F86300A5F776 /* TaxCalculator.swift in Sources */,
+				5F8CC8241DE1ECF700A5F776 /* Product.swift in Sources */,
+				5F8CC8341DE1F8DC00A5F776 /* TaxCalculatorDelegate.swift in Sources */,
+				5F8CC82E1DE1F53A00A5F776 /* ImportTaxStrategy.swift in Sources */,
+				5F8CC8461DE1FD6F00A5F776 /* ShoppingCart.swift in Sources */,
+				5F8CC82C1DE1F21100A5F776 /* TaxCalculationStrategy.swift in Sources */,
+				5F8CC8261DE1EF6100A5F776 /* ProductType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F8CC8371DE1FD6000A5F776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F8CC84D1DE267B200A5F776 /* ShoppingItem.swift in Sources */,
+				5F8CC84C1DE267B200A5F776 /* Receipt.swift in Sources */,
+				5F8CC8541DE267B200A5F776 /* TaxCalculatorDelegate.swift in Sources */,
+				5F8CC83E1DE1FD6000A5F776 /* SalesTaxesSwiftTests.swift in Sources */,
+				5F8CC8521DE267B200A5F776 /* TaxCalculatorContext.swift in Sources */,
+				5F8CC84F1DE267B200A5F776 /* BasicTaxStrategy.swift in Sources */,
+				5F8CC8531DE267B200A5F776 /* TaxCalculator.swift in Sources */,
+				5F8CC8491DE2676500A5F776 /* Product.swift in Sources */,
+				5F8CC84A1DE267A900A5F776 /* ProductType.swift in Sources */,
+				5F8CC8511DE267B200A5F776 /* TaxCalculationStrategy.swift in Sources */,
+				5F8CC84B1DE267A900A5F776 /* ProductOrigin.swift in Sources */,
+				5F8CC8501DE267B200A5F776 /* ImportTaxStrategy.swift in Sources */,
+				5F8CC84E1DE267B200A5F776 /* ShoppingCart.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5FE1F69B1DD65F25002099A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -429,6 +695,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		5F8CC8411DE1FD6000A5F776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F8CC7FC1DE1EBC800A5F776 /* SalesTaxesSwift */;
+			targetProxy = 5F8CC8401DE1FD6000A5F776 /* PBXContainerItemProxy */;
+		};
 		5FE1F6BA1DD65F26002099A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5FE1F69E1DD65F25002099A2 /* SalesTaxes */;
@@ -437,6 +708,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		5F8CC8031DE1EBC800A5F776 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F8CC8041DE1EBC800A5F776 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F8CC8081DE1EBC800A5F776 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F8CC8091DE1EBC800A5F776 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		5FE1F6AB1DD65F26002099A2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -456,6 +743,66 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5F8CC8171DE1EBC900A5F776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y682K92RZU;
+				INFOPLIST_FILE = SalesTaxesSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.chicio.SalesTaxesSwift.SalesTaxesSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5F8CC8181DE1EBC900A5F776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y682K92RZU;
+				INFOPLIST_FILE = SalesTaxesSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.chicio.SalesTaxesSwift.SalesTaxesSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5F8CC8431DE1FD6000A5F776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y682K92RZU;
+				INFOPLIST_FILE = SalesTaxesSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.chicio.SalesTaxesSwift.SalesTaxesSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SalesTaxesSwift.app/SalesTaxesSwift";
+			};
+			name = Debug;
+		};
+		5F8CC8441DE1FD6000A5F776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y682K92RZU;
+				INFOPLIST_FILE = SalesTaxesSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.chicio.SalesTaxesSwift.SalesTaxesSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SalesTaxesSwift.app/SalesTaxesSwift";
+			};
+			name = Release;
+		};
 		5FE1F6BF1DD65F26002099A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -607,6 +954,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5F8CC81B1DE1EBC900A5F776 /* Build configuration list for PBXNativeTarget "SalesTaxesSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F8CC8171DE1EBC900A5F776 /* Debug */,
+				5F8CC8181DE1EBC900A5F776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F8CC8421DE1FD6000A5F776 /* Build configuration list for PBXNativeTarget "SalesTaxesSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F8CC8431DE1FD6000A5F776 /* Debug */,
+				5F8CC8441DE1FD6000A5F776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		5FE1F69A1DD65F25002099A2 /* Build configuration list for PBXProject "SalesTaxes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

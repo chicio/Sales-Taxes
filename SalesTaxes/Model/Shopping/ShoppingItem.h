@@ -31,7 +31,7 @@
  
  @return ShoppingItem instance.
  */
-- (instancetype)initWithProduct:(Product *)aProduct andQuantity:(int)aQuantity andTaxCalculator:(TaxCalculator *)aTaxCalculator;
+- (instancetype)initWithProduct:(Product *)aProduct andQuantity:(int)aQuantity andTaxCalculator:(id<TaxCalculatorDelegate>)aTaxCalculator;
 
 /*!
 Get cost of the shopping item.

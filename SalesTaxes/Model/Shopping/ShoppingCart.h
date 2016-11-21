@@ -36,9 +36,6 @@
 - (void)remove:(NSString *)shoppingItemName;
 
 /*!
- */
-
-/*!
  Get total price of the current shopping cart.
  
  @returns total of the shopping cart.

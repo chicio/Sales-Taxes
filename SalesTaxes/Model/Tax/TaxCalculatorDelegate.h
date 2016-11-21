@@ -21,6 +21,8 @@
  Get taxes rounded up for the product received as input.
  
  @param product the product on which taxes will be calculated.
+ 
+ @returns taxes amount.
  */
 - (float)getTaxes:(Product *)product;
 

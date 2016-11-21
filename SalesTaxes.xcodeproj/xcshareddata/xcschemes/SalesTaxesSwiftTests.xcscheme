@@ -8,15 +8,15 @@
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5FE1F69E1DD65F25002099A2"
-               BuildableName = "SalesTaxes.app"
-               BlueprintName = "SalesTaxes"
+               BlueprintIdentifier = "5F8CC83A1DE1FD6000A5F776"
+               BuildableName = "SalesTaxesSwiftTests.xctest"
+               BlueprintName = "SalesTaxesSwiftTests"
                ReferencedContainer = "container:SalesTaxes.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -26,15 +26,26 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5F8CC83A1DE1FD6000A5F776"
+               BuildableName = "SalesTaxesSwiftTests.xctest"
+               BlueprintName = "SalesTaxesSwiftTests"
+               ReferencedContainer = "container:SalesTaxes.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5FE1F69E1DD65F25002099A2"
-            BuildableName = "SalesTaxes.app"
-            BlueprintName = "SalesTaxes"
+            BlueprintIdentifier = "5F8CC83A1DE1FD6000A5F776"
+            BuildableName = "SalesTaxesSwiftTests.xctest"
+            BlueprintName = "SalesTaxesSwiftTests"
             ReferencedContainer = "container:SalesTaxes.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -42,7 +53,7 @@
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -51,16 +62,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5FE1F69E1DD65F25002099A2"
-            BuildableName = "SalesTaxes.app"
-            BlueprintName = "SalesTaxes"
-            ReferencedContainer = "container:SalesTaxes.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +71,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5FE1F69E1DD65F25002099A2"
-            BuildableName = "SalesTaxes.app"
-            BlueprintName = "SalesTaxes"
-            ReferencedContainer = "container:SalesTaxes.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
