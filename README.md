@@ -62,7 +62,7 @@ OUTPUT
 ><ul>
 
 ***
-###Overview
+### Overview
 
 I created two versions of the same iOS app: the first written using Objective-C, the second one written using Swift. The app is a prototype with a simple UI that could be used to test visually that the apps meet the requirments of the problem (see animation below).The three input data set contained in the problem text are also contained in a test suit (SalesTaxesTests.m) that could be used to verify the correctness of the code.
 
@@ -71,7 +71,7 @@ I created two versions of the same iOS app: the first written using Objective-C,
 </p>
 
 ***
-###Tools
+### Tools
 I used <a href="https://travis-ci.org">Travis-CI</a> as Continuous Integration service.
 I used OCMock as Mocking framework for the test implementation (only Objective-C version).
 I used <a href="https://codecov.io/gh">codecov</a> as Code Coverage service (only Objective-C version).
